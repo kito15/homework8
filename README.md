@@ -42,5 +42,3 @@ This project uses GitHub Actions for:
 - Building Docker image
 - Pushing to Docker Hub
 
-## License
-MIT License
