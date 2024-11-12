@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.12'
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
@@ -37,5 +37,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t yourusername/devopsdemo .
-        docker push yourusername/devopsdemo
+        docker build -t yourusername/devopsdemo:${{ github.sha }} .
+        docker push yourusername/devopsdemo:${{ github.sha }}
