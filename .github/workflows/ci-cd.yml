@@ -37,5 +37,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t yourusername/devopsdemo:${{ github.sha }} .
-        docker push yourusername/devopsdemo:${{ github.sha }}
+        docker build -t rai6/homework8:${{ github.sha }} .
+        docker push rai6/homework8:${{ github.sha }}

@@ -20,3 +20,5 @@ env/
 # Miscellaneous
 .DS_Store
 *.log
+.aider*
+.env
