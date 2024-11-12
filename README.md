@@ -1,6 +1,6 @@
 # Simple Math Operations Python Project
 
-![Docker Hub Image](dockerimage.png)
+![Docker Hub Image](dockerhub.png)
 
 ## Features
 - Addition of numbers
