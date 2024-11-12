@@ -1,7 +1,6 @@
 # Simple Math Operations Python Project
 
-## Project Description
-A simple Python project demonstrating basic math operations with CI/CD workflow using GitHub Actions.
+![Docker Hub Image](dockerimage.png)
 
 ## Features
 - Addition of numbers
@@ -12,7 +11,7 @@ A simple Python project demonstrating basic math operations with CI/CD workflow 
 
 ## Prerequisites
 - Python 3.9+
-- Docker (optional)
+- Docker
 
 ## Local Setup
 1. Clone the repository
